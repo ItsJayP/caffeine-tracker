@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "caffeine-tracker",
-    "slug": "caffeine-tracker",
+    "slug": "jay-patel",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -33,11 +33,18 @@
           "imageWidth": 76
         }
       ],
-      "expo-sqlite"
+      "expo-image"
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "58de1044-97d8-4290-9f9e-381c5e1af3b5"
+      }
+    },
+    "owner": "jpy1016s-team"
   }
 }
